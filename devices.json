@@ -1,0 +1,112 @@
+[
+    {
+	      "device_type":"INVERTER_DELTA_RPIM3",
+	      "connection_type":"RTU",
+        "device_id":"DLT001",
+        "device_category":"inverter",
+	      "connection_param": {
+		        "slave_id":1,
+		        "baud_rate":9600,
+		        "parity":"none",
+		        "stop_bits":1,
+		        "byte_size":8
+	      }
+    },
+
+   {
+	      "device_type":"INVERTER_DELTA_RPIM3",
+	      "connection_type":"RTUoverLORA",
+        "device_id":"DLT002",
+        "device_category":"inverter",
+	      "connection_param": {
+		        "slave_id":2,
+		        "baud_rate":9600,
+		        "parity":"none",
+		        "stop_bits":1,
+		        "byte_size":8
+	      }
+    },
+    
+    {
+	      "device_type":"INVERTER_DELTA_RPIM3",
+	      "connection_type":"RTUoverLORA",
+        "device_id":"DLT003",
+        "device_category":"inverter",
+	      "connection_param": {
+		        "slave_id":3,
+		        "baud_rate":9600,
+		        "parity":"none",
+		        "stop_bits":1,
+		        "byte_size":8
+	      }
+    },
+    
+    {
+	      "device_type":"INVERTER_DELTA_RPIM3",
+	      "connection_type":"RTUoverLORA",
+        "device_id":"DLT004",
+        "device_category":"inverter",
+	      "connection_param": {
+		        "slave_id":4,
+		        "baud_rate":9600,
+		        "parity":"none",
+		        "stop_bits":1,
+		        "byte_size":8
+	      }
+    },
+    
+    {
+	      "device_type":"INVERTER_DELTA_RPIM3",
+	      "connection_type":"RTUoverLORA",
+        "device_id":"DLT005",
+        "device_category":"inverter",
+	      "connection_param": {
+		        "slave_id":5,
+		        "baud_rate":9600,
+		        "parity":"none",
+		        "stop_bits":1,
+		        "byte_size":8
+	      }
+    },
+    
+    {
+	      "device_type":"INVERTER_DELTA_RPIM3",
+	      "connection_type":"RTUoverLORA",
+        "device_id":"DLT006",
+        "device_category":"inverter",
+	      "connection_param": {
+		        "slave_id":6,
+		        "baud_rate":9600,
+		        "parity":"none",
+		        "stop_bits":1,
+		        "byte_size":8
+	      }
+    },
+    
+    {
+	      "device_type":"WST_RTD_RS485",
+	      "connection_type":"RTU",
+        "device_id":"WST001",
+        "device_category":"wst",
+	      "connection_param": {
+		        "slave_id":31,
+		        "baud_rate":9600,
+		        "parity":"none",
+		        "stop_bits":1,
+		        "byte_size":8
+	      }
+    },
+    {
+	      "device_type":"WST_IRRADIATION_RS485",
+	      "connection_type":"RTU",
+        "device_id":"WST002",
+        "device_category":"wst",
+	      "connection_param": {
+		        "slave_id":51,
+		        "baud_rate":9600,
+		        "parity":"none",
+		        "stop_bits":1,
+		        "byte_size":8
+	      }
+    }
+]
